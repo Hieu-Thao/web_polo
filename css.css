@@ -20,7 +20,7 @@
     align-items: center;
     position: fixed;
     z-index: 1000;
-    top: 0; 
+    top: 0;
 }
 
 
@@ -154,8 +154,6 @@
     gap: 25px;
     font-size: 20px;
     margin-left: 80px;
-
-
 }
 
 .trangchu a {
@@ -179,51 +177,63 @@
     margin-top: 170px;
 }
 
-.spnb{
+.spnb {
     margin: 30px 0px;
     font-size: 35px;
     font-weight: 600;
     text-align: center;
 }
 
-.sp{
+.sp {
     /* background-color: aqua; */
-    width: 280px;
+    /* width: 280px; */
     height: 380px;
     /* border: 2px solid black; */
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.sp:hover{
+.sp:hover {
     /* background-color: aqua; */
     border: 2px solid black;
 }
 
-.sp img{
+.sp img {
     display: block;
     border-radius: 10px;
     margin: 0 auto;
     margin: 10px 0px;
 }
 
-.sp label{
+.sp label {
     display: flex;
 
     font-size: 16px;
     font-weight: 500;
 }
 
-.gia{
+.gia {
     display: flex;
     gap: 10px;
     justify-content: center;
     margin: 7px 0px;
 }
 
-.content-spnb{
+/* .content-spnb{
     display: flex;
     justify-content: space-evenly;
     gap:10px;
+} */
+
+/* Thay bằng lưới */
+.content-spnb {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* flex: 1; */
+    gap: 30px;
+    padding: 0px 60px;
 }
 
 .xt{
@@ -231,15 +241,90 @@
     justify-content: flex-end;
     margin-right: 50px;
     margin-top: 15px;
-    gap:10px;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
 }
 
-.xt label{
+.xt label {
     font-size: 17px;
     font-weight: 400;
 }
 
-.xt ion-icon{
+.xt ion-icon {
     font-size: 17px;
     align-content: center;
 }
+
+.tcsp {
+    margin: 30px 0px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Sử dụng lưới */
+.tcsp {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* flex: 1; */
+    gap: 30px;
+    padding: 0px 60px;
+}
+
+.sologan label{
+    /* display: flex;
+    justify-content: center; */
+    font-size: 25px;
+    padding: 10px 0px;
+    
+}
+
+.sologan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bot{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: space-evenly;
+}
+
+.vect, .hotrokh, .phuongthuctt, .dichvukh{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mxh{
+    font-size:25px;
+    gap: 10px;
+}
+
+.mxh a{
+    color: white;
+    margin-right: 7px;
+}
+
+.htz{
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
