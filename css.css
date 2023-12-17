@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divbig {
+    position: relative;
+    /* padding-top: 100px; */
+}
+
+.top {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    top: 0; 
+}
+
+
+.marquee {
+    height: 25px;
+    width: 100%;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee div {
+    display: block;
+    width: 200%;
+    height: 30px;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee span {
+    float: left;
+    width: 50%;
+    color: aliceblue;
+}
+
+@keyframes marquee {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.top-menu {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+    top: 70px;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+}
+
+.dropbtn {
+    color: black;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.chevron-down-outline {
+    display: flex;
+    background-color: aqua;
+    font-size: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.search input {
+    height: 30px;
+    width: 230;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.search button {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.search {
+    display: flex;
+    gap: 7px;
+    margin-left: 30px;
+}
+
+.trangchu {
+    display: flex;
+    margin-right: 25px;
+    gap: 25px;
+    font-size: 20px;
+    margin-left: 80px;
+
+
+}
+
+.trangchu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.ic-right {
+    display: flex;
+    margin-right: 25px;
+    gap: 30px;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.banner img {
+    /* flex-shrink: 0; */
+    display: block;
+    width: 100%;
+    margin-top: 170px;
+}
+
+.spnb{
+    margin: 30px 0px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sp{
+    /* background-color: aqua; */
+    width: 280px;
+    height: 380px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+
+.sp:hover{
+    /* background-color: aqua; */
+    border: 2px solid black;
+}
+
+.sp img{
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin: 10px 0px;
+}
+
+.sp label{
+    display: flex;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.gia{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 7px 0px;
+}
+
+.content-spnb{
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+}
+
+.xt{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 15px;
+    gap:10px;
+}
+
+.xt label{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.xt ion-icon{
+    font-size: 17px;
+    align-content: center;
+}
