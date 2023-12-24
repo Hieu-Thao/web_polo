@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantity Processor</title>
+    <style>
+        #quantity {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Số lượng hiện tại: <span id="quantity">0</span>
+        <button onclick="increaseQuantity()">+</button>
+        <button onclick="decreaseQuantity()">-</button>
+    </p>
+
+    <script>
+        var quantity = 0;
+
+        function updateQuantity() {
+            document.getElementById("quantity").innerText = quantity;
+        }
+
+        function increaseQuantity() {
+            quantity++;
+            updateQuantity();
+        }
+
+        function decreaseQuantity() {
+            if (quantity > 0) {
+                quantity--;
+                updateQuantity();
+            } else {
+                alert("Số lượng đã là 0, không thể giảm nữa.");
+            }
+        }
+    </script>
+
+</body>
+</html>

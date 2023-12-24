@@ -59,7 +59,7 @@ include("header.php");
         </div>
 
         <!-- Sản phẩm 4 -->
-        <div class="sp">
+        <a class="sp" href="xemsanpham.php" style="text-decoration: none; color:black">
             <div>
                 <img src="hinhanh/11.png" width="270px" height="280px">
             </div>
@@ -72,7 +72,7 @@ include("header.php");
                 <label style="color: red;">299.000đ</label>
                 <label style="text-decoration: line-through; color:gray">350.000đ</label>
             </div>
-        </div>
+        </a>
 
     </div>
 
@@ -216,7 +216,7 @@ include("header.php");
         </div>
     </div>
 
-    <a href="#" class="xt">
+    <a href="tatcasanpham.php" class="xt">
         <label>Xem thêm</label>
         <ion-icon name="chevron-forward-circle-outline"></ion-icon>
     </a>

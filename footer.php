@@ -15,20 +15,21 @@
             <label style="font-weight: 700; margin-top: 20px; font-size:22px;">Hỗ trợ khách hàng</label>
             <a class="vect" href="#">Chính sách đổi / hoàn trả</a>
             <a class="vect" href="#">Chính sách bảo hành</a>
-            <a class="vect" href="#">Chính sách bảo mật</a>
+            <a class="vect" href="chinhsachkiemhang.php">Chính sách kiểm hàng</a>
         </div>
 
         <div class="phuongthuctt">
             <label style="font-weight: 700; margin-top: 20px; font-size:22px;">Phương thức thanh toán</label>
-            <a class="vect" href="#">COD</a>
-            <a class="vect" href="#">ATM</a>
-            <a class="vect" href="#">VISA / MASTERCARD</a>
+            <a class="vect" >COD</a>
+            <a class="vect" >ATM</a>
+            <a class="vect" >VISA / MASTERCARD</a>
         </div>
 
         <div class="dichvukh">
             <label style="font-weight: 700; margin-top: 20px; font-size:22px;">Dịch vụ khách hàng</label>
             <a class="vect" href="#">Mua hàng online: 0866 475 515</a>
             <a class="vect" href="#">Góp ý, khiếu nại: 0866 475 515</a>
+            <a class="vect" href="dangxuat.php">Đăng xuất nè!</a>
         </div>
     </div>
     <div class="htz">

@@ -122,7 +122,7 @@ if (!isset($_SESSION["admin"])) {
         <div class="b-right">
             <div class="s_dx">
                 <h3>#</h3>
-                <a href="logout.php" class="s_dx_item">
+                <a href="dangxuat.php" class="s_dx_item">
                     <ion-icon name="log-out"></ion-icon>
                     <p>Đăng xuất</p>
                 </a>

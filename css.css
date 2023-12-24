@@ -66,6 +66,7 @@
     position: sticky;
     z-index: 100000;
     width: 100%;
+    justify-content: center;
 }
 
 .dropbtn {
@@ -119,16 +120,18 @@
     /* background-color: #3e8e41; */
 }
 
-.logo {
+.logo a {
     font-weight: 700;
     font-size: 45px;
-    margin-left: 30px;
-    margin-right: 50px;
+    margin-left: 20px;
+    /* margin-right: 50px; */
+    text-decoration: none;
+    color: black;
 }
 
 .search input {
     height: 30px;
-    width: 230;
+    width: 250;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -145,15 +148,14 @@
 .search {
     display: flex;
     gap: 7px;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 
 .trangchu {
     display: flex;
-    margin-right: 25px;
-    gap: 25px;
-    font-size: 20px;
-    margin-left: 80px;
+    gap: 20px;
+    font-size: 19px;
+    margin-left: 50px;
 }
 
 .trangchu a {
@@ -164,10 +166,10 @@
 
 .ic-right {
     display: flex;
-    margin-right: 25px;
+    margin-right: 55px;
     gap: 30px;
     font-size: 30px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .banner img {
@@ -198,6 +200,20 @@
 .sp:hover {
     /* background-color: aqua; */
     border: 2px solid black;
+}
+
+.ic-right label {
+    font-size: 21px;
+
+}
+
+.ic-right a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .sp img {
@@ -236,7 +252,7 @@
     padding: 0px 60px;
 }
 
-.xt{
+.xt {
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
@@ -272,15 +288,15 @@
     padding: 0px 60px;
 }
 
-.sologan label{
+.sologan label {
     /* display: flex;
     justify-content: center; */
     font-size: 25px;
     padding: 10px 0px;
-    
+
 }
 
-.sologan{
+.sologan {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -288,7 +304,7 @@
     align-items: center;
 }
 
-.bot{
+.bot {
     background-color: black;
     height: 250px;
     width: 100%;
@@ -298,8 +314,11 @@
     justify-content: space-evenly;
 }
 
-.vect, .hotrokh, .phuongthuctt, .dichvukh{
-    
+.vect,
+.hotrokh,
+.phuongthuctt,
+.dichvukh {
+
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -308,27 +327,287 @@
     gap: 20px;
 }
 
-.mxh{
-    font-size:25px;
+.mxh {
+    font-size: 25px;
     gap: 10px;
 }
 
-.mxh a{
+.mxh a {
     color: white;
     margin-right: 7px;
 }
 
-.htz{
+.htz {
     background-color: black;
     width: 100%;
     color: white;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+    padding: 15px 0px;
 }
 
-.full-tcsp{
+.phanloai {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    align-items: center;
+    padding-right: 50px;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.phanloai button {
+    padding: 7px 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.phanloai button:hover {
+    padding: 7px 7px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid white;
+    color: #f1f1f1;
+    background-color: black;
+}
+
+.fdk {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    /* border: 1px solid; */
+    padding: 50px 150px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+
+}
+
+.dk {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dk label {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.full-dkkh {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.dk input,
+select {
+    width: 300px;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.fdk-i label {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 25px 0px;
+
+}
+
+.td-gh{
     display: flex;
 }
 
+.bt-order{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 120px;
+}
 
+.bt-order button{
+    padding: 10px 80px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 50px;
+}
+
+
+.td-gh{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.full-ctdh {
+    padding: 40px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.full-dc {
+    border: 1px solid black;
+    display: flex;
+    gap: 70px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.dc-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dc-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.td-ctdd {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    /* padding: 20px 0px; */
+}
+
+.full-sp {
+    display: flex;
+    padding: 20px 40px;
+    border-radius: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+
+.full-pttt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    padding: 20px 0px;
+    background-color: #F5F7F8;
+    border-radius: 10px;
+    margin: 20px 0px;
+
+
+}
+
+.pttt {
+    display: flex;
+    gap: 50px;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.dvvc {
+    display: flex;
+    flex-direction: column;
+}
+
+.vc {
+    display: flex;
+    justify-content: flex-end;
+    gap: 235px;
+    padding: 5px 100px;
+    font-size: 17px;
+
+}
+
+.tongtien {
+    display: flex;
+    padding: 5px 60px;
+    gap: 200px;
+}
+
+.btn-dh {
+    padding: 5px 25px;
+}
+
+.btn-dh button {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 80px;
+    border-radius: 10px;
+    border: none;
+}
+
+.full-danhgia{
+    display: flex;
+    padding: 0px 150px ;
+    flex-direction: column;
+}
+
+.mdhl{
+    padding: 25px 0px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.bt-mdhl{
+    padding: 10px 30px;
+    margin: 10px 40px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.bt-mdhl button{
+    background-color: white;
+    /* color: white; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.bt-mdhl button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.danhgia{
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+}
+
+.danhgia-img img{
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.danhgia-img{
+    display: flex;
+    align-items: center;
+}
+
+.danhgia-tt{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}

@@ -31,6 +31,7 @@
                     <label for="remember_pw">Nhớ mật khẩu</label>
                 </div>
                 <button type="submit" name="dn">Đăng nhập</button>
+                <a style="text-decoration: none; text-align:center; color:black; font-size:18px;" href="dangkykh.php">Đăng ký</a>
             </form>
         </div>
     </div>
